@@ -36,26 +36,10 @@ function displayWidth(){
         document.getElementById("width-input").style.display = "flex";
     }
 
-    areaButton.style.color="royalblue";
+    areaButton.style.color="black";
     areaButton.style.backgroundColor = "rgba(255, 255, 255, 0)";
     widthButton.style.color="white";
-    widthButton.style.backgroundColor = "royalblue";
-
-    // areaButton.addEventListener("mouseenter", (e) => {
-    //     areaButton.style.color="white";
-    //     areaButton.style.backgroundColor = "royalblue";
-    // });
-
-    // areaButton.addEventListener("mouseleave", (e) => {
-    //     areaButton.style.color="royalblue";
-    //     areaButton.style.backgroundColor = "rgba(255, 255, 255, 0)";
-    // });
-
-    // areaButton.addEventListener("mousedown", (e) => {
-    //     areaButton.style.color="white";
-    //     areaButton.style.backgroundColor = "rgb(53, 86, 184)";
-    // });
-
+    widthButton.style.backgroundColor = "#393E46";
 
     resetPage();
 }
@@ -75,25 +59,10 @@ function displayArea(){
         document.getElementById("width-input").style.display = "none";
         document.getElementById("area-input").style.display = "flex";
     }
-    widthButton.style.color="royalblue";
+    widthButton.style.color="black";
     widthButton.style.backgroundColor = "rgba(255, 255, 255, 0)";
     areaButton.style.color="white";
-    areaButton.style.backgroundColor = "royalblue";
-
-    // widthButton.addEventListener("mouseenter", (e) => {
-    //     widthButton.style.color="white";
-    //     widthButton.style.backgroundColor = "royalblue";
-    // });
-
-    // widthButton.addEventListener("mouseleave", (e) => {
-    //     widthButton.style.color="royalblue";
-    //     widthButton.style.backgroundColor = "rgba(255, 255, 255, 0)";
-    // });
-
-    // widthButton.addEventListener("mousedown", (e) => {
-    //     widthButton.style.color="white";
-    //     widthButton.style.backgroundColor = "rgb(53, 86, 184)";
-    // });
+    areaButton.style.backgroundColor = "#393E46";
 
     resetPage();
 }

@@ -4,18 +4,26 @@
 body {    
     font-family: Arial, Helvetica, sans-serif;
     margin:0% 10% 2%;
+    background-color: #222831;
 }
 
 header {
     text-align: center;
     margin-bottom: 10px;
+    color:white;
 }
 
-section{
+section {
     background-color: white;
-    border: solid 1px royalblue;
+    border: solid 1px #393E46;
     border-radius: 5px;
     filter: drop-shadow(0px 0px 10px)
+}
+
+footer {
+    margin-top: 2%;
+    text-align: center;
+    color:white;
 }
 
 /* styling parent id */
@@ -39,7 +47,7 @@ section{
 #section-title > p {
     margin: 0px 0px 10px;
     padding: 50px 10px;
-    background-color: royalblue;
+    background-color: #393E46;
     color:white;
     font-size: 40px;
     font-weight: bold;
@@ -48,7 +56,7 @@ section{
 }
 
 #section-title > img{
-    width: 15%;
+    width: 50%;
 }
 
 #section-content {
@@ -101,32 +109,32 @@ section{
 
 #width-btn {
     color: white;
-    background-color: royalblue;
+    background-color: #393E46;
 }
 
 #width-btn:hover {
     color:white;
-    background-color: royalblue;
+    background-color: #393E46;
 }
 
 #width-btn:active {
     color:white;
-    background-color: rgb(53, 86, 184);
+    background-color: #393e4691;
 }
 
 #area-btn {
-    color: royalblue;
+    color: black;
     background-color: rgba(255, 255, 255, 0);
 }
 
 #area-btn:hover {
     color:white;
-    background-color: royalblue;
+    background-color: #393E46;
 }
 
 #area-btn:active {
     color:white;
-    background-color: rgb(53, 86, 184);
+    background-color: #393e4691;
 }
 
 /* #section-content */
@@ -153,7 +161,7 @@ section{
 
 #calc-btn {
     color:white;
-    background-color: royalblue;
+    background-color: #393E46;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -164,25 +172,25 @@ section{
 }
 
 #calc-btn:hover {
-    background-color: rgba(65, 105, 225, 0.575);
+    background-color: #393e4691;
 }
 
 #calc-btn:active {
-    background-color: royalblue;
+    background-color: #393E46;
 }
 
 #reset-btn {
     color: white;
-    background-color: orange;
+    background-color: #00ADB5;
     margin-left: auto;
     padding: 5px;
     border-radius: 5px;
 }
 
 #reset-btn:hover {
-    background-color: rgba(255, 166, 0, 0.575);
+    background-color: #00acb5a1;
 }
 
 #reset-btn:active {
-    background-color: orange;
+    background-color: #00adb5;
 }
