@@ -20,12 +20,12 @@ section{
 
 /* styling parent id */
 
-#nav-bar {
+#type-bar {
     display: flex;
     flex-direction: column;
 }
 
-#nav-bar > button {
+#type-bar > button {
     padding: 8px;
     margin: 5px;
     border: none;
@@ -97,7 +97,7 @@ section{
 
 /* styling specific id */
 
-/* #nav-bar */
+/* #type-bar */
 
 #width-btn {
     color: white;
