@@ -11,10 +11,7 @@
         <h1>Welcome to Katik</h1>
         <p>Hai sobat, selamat datang di Katik!</p>
         <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
-        <nav id="nav-bar">
-            <button id="width-btn" onclick="displayWidth()">Luas segitiga</button>
-            <button id="area-btn" onclick="displayArea()">Keliling segitiga</button>
-        </nav>
+
     </header>
     <nav></nav>
     <section>
@@ -29,6 +26,10 @@
         </div>
         <div id="section-input">
             <p id="input-title">hitung segitiga</p>
+            <div id="type-bar">
+                <button id="width-btn" onclick="displayWidth()">Luas segitiga</button>
+                <button id="area-btn" onclick="displayArea()">Keliling segitiga</button>
+            </div>
             <div id="width-input">
                 <input type="number" class="input-area" id="width-base" placeholder="Alas segitiga">
                 <input type="number" class="input-area" id="width-height" placeholder="Tinggi segitiga">
