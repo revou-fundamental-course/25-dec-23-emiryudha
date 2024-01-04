@@ -108,18 +108,30 @@ function calculateTriangle(){
 
     if(stateCalc === "Width"){
         var result = 0.5 * parseFloat(alas) * parseFloat(tinggi);
-        var p1 = widthFormula;
-        var p2 = "L = <sup>1</sup>/<sub>2</sub> x " + alas + " x " + tinggi;
-        var p3 = "L = " + result;
-        calcResult.style.display = "flex";
-        calcResult.innerHTML = "<pre>" + p1 + "\n" + p2 + "\n"+ p3 + "</pre>";
+        if(!isNaN(result)){
+            var p1 = widthFormula;
+            var p2 = "L = <sup>1</sup>/<sub>2</sub> x " + alas + " x " + tinggi;
+            var p3 = "L = " + result;
+            calcResult.style.display = "flex";
+            calcResult.innerHTML = "<pre>" + p1 + "\n" + p2 + "\n"+ p3 + "</pre>";
+        } else {
+            calcResult.style.display = "flex";
+            calcResult.innerHTML = "Please input only numeric characters!";
+        }
+        
     } else {
         var result = parseFloat(a) + parseFloat(b) + parseFloat(c)
-        var p1 = areaFormula;
-        var p2 = "K = " + a + " + " + b + " + " + c;
-        var p3 = "K = " + result;
-        calcResult.style.display = "flex";
-        calcResult.innerHTML = "<pre>" + p1 + "\n" + p2 + "\n"+ p3 + "</pre>";
+        console.log(a,b,c,result)
+        if(!isNaN(result)){
+            var p1 = areaFormula;
+            var p2 = "K = " + a + " + " + b + " + " + c;
+            var p3 = "K = " + result;
+            calcResult.style.display = "flex";
+            calcResult.innerHTML = "<pre>" + p1 + "\n" + p2 + "\n"+ p3 + "</pre>";
+        } else {
+            calcResult.style.display = "flex";
+            calcResult.innerHTML = "Please input only numeric characters!";
+        }
     }
 }
 
@@ -131,5 +143,4 @@ function resetPage(){
     document.getElementById("side-c").value = "";
     document.getElementById("calc-result").style.display = "none";
     document.getElementById("calc-result").innerHTML = "";
-
 }
