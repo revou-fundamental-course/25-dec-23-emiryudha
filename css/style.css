@@ -1,0 +1,188 @@
+
+/* styling tag */
+
+body {    
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0% 10% 2%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section{
+    background-color: white;
+    border: solid 1px royalblue;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px)
+}
+
+/* styling parent id */
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar > button {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+}
+
+#section-title {
+    text-align: center;
+}
+
+#section-title > p {
+    margin: 0px 0px 10px;
+    padding: 50px 10px;
+    background-color: royalblue;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#section-title > img{
+    width: 15%;
+}
+
+#section-content {
+    border-bottom: dotted 1px grey;
+    padding: 20px 10px;
+}
+
+#section-content > p {
+    padding: 0px 10px;
+}
+
+#section-input {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+#section-input > #input-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#section-input > button {
+    margin-top: 10px;
+}
+
+#width-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#area-input {
+    display: none;
+    flex-direction: column;
+}
+
+.input-area {
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid;
+}
+
+/* styling specific id */
+
+/* #nav-bar */
+
+#width-btn {
+    color: white;
+    background-color: royalblue;
+}
+
+#width-btn:hover {
+    color:white;
+    background-color: royalblue;
+}
+
+#width-btn:active {
+    color:white;
+    background-color: rgb(53, 86, 184);
+}
+
+#area-btn {
+    color: royalblue;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#area-btn:hover {
+    color:white;
+    background-color: royalblue;
+}
+
+#area-btn:active {
+    color:white;
+    background-color: rgb(53, 86, 184);
+}
+
+/* #section-content */
+
+#the-formula{
+    text-align: center;
+}
+
+#legend-formula{
+    line-height: 5px;
+}
+
+/* #section-input */
+
+#calc-result {
+    display: none;
+    padding: 0px 10px;
+}
+
+#calc-result > pre {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+#calc-btn {
+    color:white;
+    background-color: royalblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#calc-btn:hover {
+    background-color: rgba(65, 105, 225, 0.575);
+}
+
+#calc-btn:active {
+    background-color: royalblue;
+}
+
+#reset-btn {
+    color: white;
+    background-color: orange;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#reset-btn:hover {
+    background-color: rgba(255, 166, 0, 0.575);
+}
+
+#reset-btn:active {
+    background-color: orange;
+}
